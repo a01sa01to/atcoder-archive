@@ -1,0 +1,11 @@
+/*
+ * Author: a01sa01to
+ * Submission URL: https://atcoder.jp/contests/APG4b/submissions/19845085
+ * Submitted at: 2021-01-31 22:18:36
+ * Problem URL: https://atcoder.jp/contests/APG4b/tasks/APG4b_cu
+ * Result: WA
+ * Execution Time: 4 ms
+ */
+
+いつも2525
+AtCoderくん
