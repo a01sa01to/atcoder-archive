@@ -1,0 +1,10 @@
+/*
+ * Author: a01sa01to
+ * Submission URL: https://atcoder.jp/contests/stage0-2021/submissions/26372206
+ * Submitted at: 2021-10-05 23:23:59
+ * Problem URL: https://atcoder.jp/contests/stage0-2021/tasks/stage0_2021_a
+ * Result: AC
+ * Execution Time: 7 ms
+ */
+
+
