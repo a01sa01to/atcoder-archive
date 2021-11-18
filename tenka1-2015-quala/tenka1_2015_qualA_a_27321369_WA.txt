@@ -1,0 +1,10 @@
+/*
+ * Author: a01sa01to
+ * Submission URL: https://atcoder.jp/contests/tenka1-2015-quala/submissions/27321369
+ * Submitted at: 2021-11-19 00:24:12
+ * Problem URL: https://atcoder.jp/contests/tenka1-2015-quala/tasks/tenka1_2015_qualA_a
+ * Result: WA
+ * Execution Time: 10 ms
+ */
+
+653241
