@@ -1,0 +1,10 @@
+/*
+ * Author: a01sa01to
+ * Submission URL: https://atcoder.jp/contests/pakencamp-2020-day1/submissions/28444336
+ * Submitted at: 2022-01-10 11:32:29
+ * Problem URL: https://atcoder.jp/contests/pakencamp-2020-day1/tasks/pakencamp_2020_day1_a
+ * Result: WA
+ * Execution Time: 5 ms
+ */
+
+2022
