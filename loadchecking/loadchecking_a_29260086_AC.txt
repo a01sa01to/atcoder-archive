@@ -1,0 +1,29 @@
+/*
+ * Author: a01sa01to
+ * Submission URL: https://atcoder.jp/contests/loadchecking/submissions/29260086
+ * Submitted at: 2022-02-13 19:02:12
+ * Problem URL: https://atcoder.jp/contests/loadchecking/tasks/loadchecking_a
+ * Result: AC
+ * Execution Time: 1 ms
+ */
+
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
