@@ -1,0 +1,10 @@
+/*
+ * Author: a01sa01to
+ * Submission URL: https://atcoder.jp/contests/code-festival-2015-relay/submissions/32183971
+ * Submitted at: 2022-06-04 01:36:56
+ * Problem URL: https://atcoder.jp/contests/code-festival-2015-relay/tasks/cf_2015_relay_a
+ * Result: WA
+ * Execution Time: 3 ms
+ */
+
+1005
