@@ -1,0 +1,10 @@
+/*
+ * Author: a01sa01to
+ * Submission URL: https://atcoder.jp/contests/ahc014/submissions/34909340
+ * Submitted at: 2022-09-17 15:00:47
+ * Problem URL: https://atcoder.jp/contests/ahc014/tasks/ahc014_a
+ * Result: AC
+ * Execution Time: 8 ms
+ */
+
+0
