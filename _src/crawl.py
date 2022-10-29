@@ -17,6 +17,8 @@ def fetch_submissions(epoch_sec: int) -> list[Submission]:
 
 def main():
     sec = get_last_submission_epoch()
+    print("Last Submission Time:", datetime.fromtimestamp(sec))
+
     submissions = fetch_submissions(sec)
 
     print("Found {} submission(s)".format(len(submissions)))

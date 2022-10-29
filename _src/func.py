@@ -48,12 +48,14 @@ def get_last_submission_epoch() -> int:
     for commit in repo.iter_commits():
         try:
             # Result ProbId (SubmissionID) at EpochSecond
-            return int(commit.message.split(" ")[-1].replace("(", "").replace(")", "")) + 1
+            epoch_sec = int(commit.message.split(" ")[-1].replace("(", "").replace(")", "")) + 1
+            print("Found Last Submission Commit:", commit.message)
+            return epoch_sec
         except ValueError:
-            print("ValueError", commit.message)
+            print("ValueError:", commit.message)
             continue
         except IndexError:
-            print("IndexError", commit.message)
+            print("IndexError:", commit.message)
             continue
     return 0
 
