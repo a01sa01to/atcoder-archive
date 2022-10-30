@@ -1,4 +1,3 @@
-
 class Submission:
     id: int
     epoch_second: int
