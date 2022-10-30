@@ -1,5 +1,5 @@
 import git
-import datetime
+from datetime import datetime
 
 from datatypes import Submission
 
