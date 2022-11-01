@@ -1,0 +1,10 @@
+/*
+ * Author: a01sa01to
+ * Submission URL: https://atcoder.jp/contests/chokudai_S001/submissions/36131709
+ * Submitted at: 2022-11-01 14:43:40
+ * Problem URL: https://atcoder.jp/contests/chokudai_S001/tasks/chokudai_S001_l
+ * Result: WA
+ * Execution Time: 6 ms
+ */
+
+YES
