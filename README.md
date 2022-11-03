@@ -1,6 +1,6 @@
-# cp-archive (AtCoder)
+# atcoder-archive
 
-My AtCoder Submission Archive
+My AtCoder Submission Code Archive
 
 ## Directory Structure
 
