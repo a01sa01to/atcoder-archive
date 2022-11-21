@@ -1,13 +1,20 @@
 import os
 import time
+import sys
 from datetime import datetime
 
 import get
 import fetch
-from commit import commit
+from commit import commit, commitAll
+
 
 def main():
-    sec = get.last_submission_epoch()
+    fetchall = (len(sys.argv) > 1 and sys.argv[1] == 'fetch_all')
+    if fetchall:
+        with open("_src/lastFetchedAll.txt", "r") as f:
+            sec = int(f.read()) + 1
+    else:
+        sec = get.last_submission_epoch()
     print("Last Submission Time:", datetime.fromtimestamp(sec))
 
     submissions = fetch.submissions(sec)
@@ -36,9 +43,14 @@ def main():
             file.write(f" * Execution Time: {s.execution_time} ms\n")
             file.write(" */\n\n")
             file.write(fetch.code(s))
-        commit(s, save_path)
+        if not fetchall:
+            commit(s, save_path)
         cnt += 1
 
+    if fetchall:
+        commitAll()
+        with open("_src/lastFetchedAll.txt", "w") as f:
+            f.write(str(submissions[-1].epoch_second))
     print("All Done!")
 
 
