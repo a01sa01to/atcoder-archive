@@ -1,8 +1,6 @@
 name: AtCoder Submissions Crawler (all)
 
 on:
-  schedule:
-    - cron: "0 19 * * 0"
   workflow_dispatch:
 
 jobs:
